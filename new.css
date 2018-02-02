@@ -13,18 +13,21 @@ p {
 }
 
 h1 {
+  color: black;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: bold;
   font-style: normal;
 }
 
 h2 {
+  color: black;
   font-family: Georgia, "Times New Roman", serif;
   text-align: center;
   font-style: normal;
 }
 
 h3 {
+  color: black;
   font-family: Georgia, "Times New Roman", serif;
   /* text-align: center; */
   font-weight: bold;
@@ -86,7 +89,7 @@ img {
   margin-right: auto;
 }
 
-.bullets {
+ul {
   list-style-type: none;
   padding: 0;
 }
