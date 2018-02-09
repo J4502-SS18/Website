@@ -27,7 +27,7 @@ padding: 0;
   /* text-decoration: none; */
 }
 
-#nav a:link {
+#nav a:link, #nav a:visited {
   text-decoration: none;
   color: #ffffff;
   background-color: #98ef21;

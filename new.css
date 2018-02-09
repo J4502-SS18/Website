@@ -1,42 +1,49 @@
 /*styles go here*/
-
-body {
+body{
   text-align: center;
-  background-color: #F5EEF8;
+	background-color: #EAF2F8  ;
 }
 
 p {
-  color: black;
-  /* text-align: center; */
-  font-family: Helvetica, Arial, sans-serif;
-  font-style: italic;
+	color: black;
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.9em;
+}
+
+.italic {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.normal {
+  font-style: normal;
 }
 
 h1 {
+	font-family: 'Merriweather Sans', sans-serif;
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: bold;
+  font-size: 45px;
   font-style: normal;
 }
 
 h2 {
+  font-size: 25px;
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
-  text-align: center;
   font-style: normal;
 }
 
 h3 {
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Tinos', serif;
   /* text-align: center; */
   font-weight: bold;
   font-style: normal;
+  font-size: 1.1em;
 }
 
 .container {
   width: 95%;
-  margin: auto ;
+  margin: auto;
 }
 
 #nav {
@@ -48,13 +55,15 @@ padding: 0;
     margin: 0;
     padding: 0;
 	  border-bottom: 1px solid #ccc;
+    line-height: 1.5rem;
 }
 
 #nav a:link, #nav a:visited {
   text-decoration: none;
-  color: #A569BD;
+  color: #E67E22;
   background-color: #F5EEF8;
   font-weight: bold;
+  font-size: 17px;
   /* text-align: center; */
   display: block;
 	font-family: Helvetica, Arial, sans-serif;
@@ -63,7 +72,7 @@ padding: 0;
 
 /* #nav a:active- the state when it is actually clicked on */
 #nav a:hover, #nav a:active {
-	background-color: #EAF2F8;
+	background-color: #F9E79F;
 }
 
 .caption {
