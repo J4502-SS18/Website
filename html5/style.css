@@ -1,0 +1,12 @@
+body {
+	background-color: gray;
+}
+
+
+canvas {
+	border: 1px dotted black;
+}
+
+video {
+	-webkit-transform: rotate(-5deg);
+}
