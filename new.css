@@ -19,6 +19,10 @@ p {
   font-style: normal;
 }
 
+.img-circle {
+    border-radius: 10%;
+}
+
 h1 {
 	font-family: 'Merriweather Sans', sans-serif;
   color: black;
@@ -27,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   color: black;
   font-style: normal;
 }
@@ -96,6 +100,10 @@ img {
 	border: none;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 0.1em;
+  padding-right: 30px;
+  padding-bottom: 0.9em;
+  padding-left: 80px;
 }
 
 ul {
