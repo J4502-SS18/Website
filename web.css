@@ -1,11 +1,10 @@
 /*styles go here*/
-body{
-  text-align: center;
+body {
 	background-color: #EAF2F8  ;
 }
 
-.nav ul {
-  text-align: right;
+.body {
+    text-align: center;
 }
 
 p {
