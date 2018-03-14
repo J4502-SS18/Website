@@ -4,6 +4,10 @@ body{
 	background-color: #EAF2F8  ;
 }
 
+.nav ul {
+  text-align: right;
+}
+
 p {
 	color: black;
   font-family: 'Arimo', sans-serif;
@@ -17,10 +21,6 @@ p {
 
 .normal {
   font-style: normal;
-}
-
-.img-circle {
-    border-radius: 10%;
 }
 
 h1 {
