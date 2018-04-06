@@ -165,7 +165,7 @@ header, article, aside, footer {
   .pullquote {
     grid-area: d;
     margin-top: 0;
-    max-width: 100px;
+    max-width: 300px;
   }
 }
 
