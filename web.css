@@ -129,6 +129,32 @@ header, article, aside, footer {
 
   }
 
+
+  @media screen and (min-width: 700px){
+
+      nav ul {
+          display: flex;
+      }
+
+      nav ul li {
+          display: block;
+          border-top: 1px #79896d solid;
+      }
+
+      .menu-trigger {
+          display: none;
+      }
+
+      header h1 {
+          order: 1;
+      }
+
+      nav {
+          order: 2;
+      }
+
+  }
+
 @media screen and (min-width: 800px) {
 
  article {
@@ -198,26 +224,18 @@ nav ul {
     display: none;
 }
 
-@media screen and (min-width: 700px){
 
-    nav ul {
-        display: flex;
-    }
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
 
-    nav ul li {
-        border-top: none;
-    }
-
-    .menu-trigger {
-        display: none;
-    }
-
-    header h1 {
-        order: 1;
-    }
-
-    nav {
-        order: 2;
-    }
-
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
